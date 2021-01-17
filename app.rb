@@ -16,15 +16,16 @@ end
 
 post '/visit' do
 
-  @username = params[:username]
-  @phone = params[:phone]
-	@pdatetime = params[:datetime]
-	@barber = params[:barber]
+
+@username = params[:username]
+@phone = params[:phone]
+@pdatetime = params[:datetime]
+@barber = params[:barber]
 
 
-  erb "ok, username is #{@username}, #{@phone}, #{@pdatetime}, #{@barber}"
+erb "ok, username is #{@username}, #{@phone}, #{@pdatetime}, #{@barber}"
+
 end
-
 
 
 
